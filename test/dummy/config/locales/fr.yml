@@ -1,0 +1,15 @@
+---
+fr:
+  datagrid:
+    no_results: Aucun résultat
+    filters:
+      xboolean:
+        "yes": "Oui"
+        "no": "Non"
+    form:
+      search: Chercher
+      reset: Reset
+    table:
+      order:
+        asc: ↑
+        desc: ↓
