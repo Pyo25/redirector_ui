@@ -3,7 +3,7 @@ PATH
   specs:
     redirector_ui (1.2.2)
       bootstrap (>= 4.0.0)
-      datagrid
+      datagrid (>= 1.5.8, < 2.0)
       font-awesome-rails
       jquery-rails
       kaminari
@@ -64,8 +64,8 @@ GEM
     builder (3.2.3)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
-    datagrid (1.5.8)
-      rails (>= 4.0)
+    datagrid (1.8.2)
+      railties (>= 6.1)
     erubi (1.8.0)
     execjs (2.7.0)
     ffi (1.11.1)
@@ -166,7 +166,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  datagrid (>= 1.5.8)
+  datagrid (>= 1.5.8, < 2.0)
   redirector_ui!
   sqlite3
 
